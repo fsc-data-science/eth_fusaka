@@ -1,0 +1,25 @@
+{
+  "analysis": {
+    "id": "eth-fusaka-median-tx-fees",
+    "title": "Median Ethereum Transaction Fees: A Historical Analysis Since 2020",
+    "subtitle": "Weekly median transaction fees in ETH and USD with key upgrade milestones",
+    "htmlFile": "REPORT.html",
+    "thumbnail": null
+  },
+  "repository": {
+    "url": "https://github.com/your-org/eth_fusaka",
+    "branch": "main"
+  },
+  "metadata": {
+    "author": "TRACE Analysis",
+    "reviewer": null,
+    "networks": ["Ethereum"],
+    "timestampRange": {
+      "start": "2020-01-01",
+      "end": "2025-12-08"
+    },
+    "analysisDate": "2025-12-08",
+    "dataSource": "Flipside Crypto"
+  }
+}
+

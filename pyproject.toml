@@ -1,0 +1,6 @@
+[project]
+name = "eth-fusaka"
+version = "0.1.0"
+description = "Ethereum transaction fee analysis report"
+requires-python = ">=3.8"
+dependencies = []
