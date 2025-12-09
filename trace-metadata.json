@@ -7,12 +7,12 @@
     "thumbnail": null
   },
   "repository": {
-    "url": "https://github.com/your-org/eth_fusaka",
+    "url": "https://github.com/fsc-data-science/eth_fusaka",
     "branch": "main"
   },
   "metadata": {
     "author": "TRACE Analysis",
-    "reviewer": null,
+    "reviewer": "charliemarketplace",
     "networks": ["Ethereum"],
     "timestampRange": {
       "start": "2020-01-01",

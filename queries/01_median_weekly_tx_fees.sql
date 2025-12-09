@@ -7,8 +7,7 @@ WITH weekly_fees AS (
         MEDIAN(tx_fee) AS tx_fee_eth
     FROM ethereum.core.fact_transactions
     WHERE block_timestamp >= '2020-01-01'
-        AND tx_succeeded = TRUE
-        AND tx_fee > 0
+    AND block_timestamp < '2025-12-08'
     GROUP BY 1
 ),
 weekly_prices AS (
@@ -17,6 +16,7 @@ weekly_prices AS (
         MEDIAN(price) AS median_eth_price
     FROM ethereum.price.ez_prices_hourly
     WHERE is_native = TRUE
+    AND hour < '2025-12-08'
         AND hour >= '2020-01-01'
     GROUP BY 1
 )
