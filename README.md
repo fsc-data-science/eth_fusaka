@@ -1,6 +1,6 @@
 # Ethereum Transaction Fees: Historical Analysis
 
-> **An application of the [TRACE Content Template](https://github.com/fsc-data-science/trace-content-template)** for analyzing Ethereum transaction fees over time against major network milestones.
+> **An application of the [TRACE Content Template](https://github.com/fsc-data-science/trace_content_template)** for analyzing Ethereum transaction fees over time against major network milestones.
 
 ## Overview
 
